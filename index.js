@@ -9,4 +9,7 @@ Tell the user their options:
 3. Open the door
 */
 
-console.log("Welcome to the Escape Room: Your options are, Find the key, Put hand in hold or Open the door");
+console.log("Welcome to the Escape Room: Please Enter 1 to Find the key, 2 to Put hand in hole, or 3 to Open the door");
+
+// Assign a Variable to the Question Asking for Option
+let selectedChoice = readLine.question("What Would You Like to Do?");
